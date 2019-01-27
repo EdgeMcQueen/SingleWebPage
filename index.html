@@ -62,9 +62,53 @@
       </div>
   </section>
   <section class="infobox">
+    <div class="padbox">
+      <img src="img/pad.png" alt="" class="pad">
+      <h2 class="infobox_headling padbox_headling">This is a Heading</h2>
+      <p class="infobox_txt padbox_txt">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. <br>
+      <br>
+Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+    </div>
+    <div class="laptopbox">
+      <img src="img/laptop.png" alt="" class="laptop">
+      <h2 class="infobox_headling laptopbox_headling">This is a Heading</h2>
+      <p class="infobox_txt laptopbox_txt">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+      <a href="#" class="button">Download</a>
+    </div>
 
   </section>
+
+<div id="map">
+  <div class="email">
+    <form>
+      <input class="name" type="text" size="40" name="name" placeholder="Name">
+        <input class="email_add" type="email" name="email" placeholder="Email adress">
+        <textarea class="comment" name="comment" rows="8" cols="80" placeholder="Commentary"></textarea>
+        <input class="submit" type="submit" name="" value="" style="background-image: url(img/submit.png);background-repeat: no-repeat;">
+    </form>
+  </div>
+</div>
 </main>
 
+<footer>
+   © Copyright 2019 Edgard.McQueen, All Rights Reserved.
+</footer>
+
+<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script type="text/javascript">
+ymaps.ready(init);
+
+function init(){
+
+  var myMap;
+
+  myMap = new ymaps.Map("map", {
+      center: [55.76, 37.64],
+      zoom: 13
+  });
+
+}
+</script>
+</script>
 </body>
 </html>

@@ -1,138 +1,155 @@
-/*обнуление*/
-html {
+/*Обнуление*/
+
+html{
   padding: 0;
   margin: 0;
-}
+  }
 
 body{
   margin-top: 0;
   margin: 0;
-}
+  }
 
 main{
-margin: 0;
-padding: 0;
-}
+  margin: 0;
+  padding: 0;
+  }
+
+/*Конец обнуления*/
+
 /*Параметры шрифтов*/
-@font-face {
+
+@font-face{
   font-family: 'Open Sans', sans-serif;
   src:url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
-}
+  }
+
 .caps{
   text-transform: uppercase;
-}
+  }
+
 .regular{
   font-family: Open Sans, serif;
   font-weight: 400;
-}
+  }
+
 .semibold{
   font-family: Open Sans, serif;
-  font-weight: 600;}
+  font-weight: 600;
+  }
+
 .bold{
   font-family: Open Sans, serif;
-  font-weight: 700;}
-  /*end font properties*/
-
-  /*header prop*/
-  .head{
-    width: 100%;
-    height: 800px;
-    background-image: url(../img/city.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: top;
-    padding-top: 68px;
+  font-weight: 700;
   }
+
+p{
+  font-family: Open Sans, serif;
+  }
+
+.overflow_txt{
+  overflow: hidden;
+  }
+
+/*Конец параметров шрифтов*/
+
+/*Параметры шипки*/
+.head{
+  width: 100%;
+  height: 800px;
+  padding-top: 68px;
+  background-image: url(../img/city.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: top;
+  }
+
 .logo{
   display: block;
   margin: 0 auto;
   height: auto;
   width: auto;
-  /*border: 4px solid #fff;*/
-}
+  }
+
 p.fontstyle{
+  margin: 0;
   text-align: center;
   font-size: 49px;
   color: #fff;
-  margin: 0;
+  }
 
-}
 .headtxt{
   margin: 78px auto;
   width: 675px;
   height: 97px;
   text-transform: uppercase;
-}
-/*end header*/
+  }
 
-/*Общие параметры блоков и строк. Используются дял классов 2го уровня*/
-p{
-  font-family: Open Sans, serif;
-}
-.overflow_txt{
-  overflow: hidden;
-}
+/*Конец шапки*/
 
-/*call to*/
-.zipcode{
+/*Блок call to*/
 
-}
 body.callto{
   margin-top: 579px;
-
-}
+  }
 
 .callto{
-margin: 0 auto;
-width: 334px;
-height: 334px;
-box-shadow: 0 1px 1px rgba(0, 0, 0, .0)  0, 0, 0, 0.28), 0 0 3px rgba(0, 0, 0, .0)  0, 0, 0, 0.04);
-background-color: #ffffff;
-padding-top: 31px;
-}
+  margin: 0 auto;
+  width: 334px;
+  height: 334px;
+  padding-top: 31px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .0)  0, 0, 0, 0.28), 0 0 3px rgba(0, 0, 0, .0)  0, 0, 0, 0.04);
+  background-color: #ffffff;
+  }
 
 .zipcode{
+  width: 264px;
+  height: 36px;
   display: block;
   margin: 31px auto 24px auto;
-  opacity: 0.66;
+  font-family: Open Sans, serif;
+  font-size: 15px;
   text-align: center;
-}
+  opacity: 0.66;
+  }
 
 .images{
   margin: 0 0 156px 0;
-    width: 334px;
-    height: 87px;
-    padding: 0;
-}
+  width: 334px;
+  height: 87px;
+  padding: 0;
+  }
+
 .imgs_link{
   width: 66.5px;
   height: 43.5px;
-}
+  }
 
 .imgs{
- list-style: none;
- padding: 0;
- margin: 0;
- display: flex;
- flex-wrap: wrap;
-}
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  }
+
 .imgs>li>a{
-padding: 0;
-margin: 0;
-display: flex;
-flex-wrap: wrap;
-}
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  }
 
 .calltotxt{
-  font-size: 15px;
-  text-align: center;
   display: block;
   width: 217px;
   height: 40px;
   margin: 27px auto 25px auto;
   padding: 0;
+  font-size: 15px;
+  text-align: center;
   opacity: 0.66;
-}
+  }
 
 .calltotxt:hover{
   width: 100%;
@@ -140,46 +157,42 @@ flex-wrap: wrap;
   margin: 0;
   overflow: scroll;
   opacity: 1;
-}
+  }
 
 .pressme{
-  padding-top: 12px;
-  font-size: 25px;
-  text-align: center;
-  text-decoration: none;
-  font-family: Open Sans, serif;
-
-
   display: block;
   width: 195px;
   height: 45px;
-  background-color: #227dd3;
-  color: #fff;
+  padding-top: 12px;
   margin: 0 auto 25px auto;
+  font-family: Open Sans, serif;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #227dd3;
 }
 
-/*Конец хидера*/
+/*Конец шапки*/
+
 /*Начало основного контента*/
 
-
 /*Блок документов и фото*/
+
 .filebox{
-display: flex;
-flex-wrap: wrap;
-margin: 0 auto;
-padding: 0;
-height: auto;
-width: auto;
-}
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+  width: auto;
+  }
 
 .documents{
-
   width: 393px;
   height: 121px;
   margin: 170px auto;
-
-
-}
+  }
 
 .doc{
   width: 95px;
@@ -187,14 +200,13 @@ width: auto;
   padding: 0;
   margin: 0;
   float: left;
-}
+  }
 
 .photos{
-
   width: 393px;
   height: 121px;
   margin: 170px auto;
-}
+  }
 
 .phot{
   width: 95px;
@@ -202,183 +214,194 @@ width: auto;
   padding: 0;
   margin: 0;
   float: left;
-}
+  }
 
 .h_filebox{
-  font-family: Open Sans, serif;
   margin: 13px auto auto 118px;
   width: 147px;
   height: 19px;
-
-}
+  font-family: Open Sans, serif;
+  }
 
 .fb_txt{
   margin: 19px auto auto 118px;
   width: 266px;
   height: 70px;
   opacity: 0.66;
-}
+  }
 
 .fb_txt:hover{
   width: 275px;
   height: 177px;
   overflow: scroll;
   opacity: 1;
-}
+  }
+
 /*Конец блока документов и фото*/
+
 /*Блок с информацией*/
+
 .infobox{
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
   flex-wrap: wrap;
-  background-image: url(../img/infobox.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 1352px;
   width: 100%;
   padding-top: 86px;
-}
+  background-image: url(../img/infobox.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
 .padbox{
   width: 665px;
   height: 507px;
   margin: 86px auto;
-}
+  }
+
 .pad{
   display: block;
   margin: 0 auto;
-}
+  }
+
 .padbox_headling{
   text-align: center;
-}
+  }
+
 .padbox_txt{
   padding-left: 21px;
   padding-right: 21px;
-}
+  }
+
 .laptopbox{
-width: 835px;
-height: 100%;
-margin-left: 15%;
-}
+  width: 835px;
+  height: 100%;
+  margin-left: 15%;
+  }
+
 .laptop{
-width: 272px;
-height: 227px;
-float: left;
-clear: right;
-margin: 12px auto;
-margin-right: 57px;
-margin-bottom: 50px;
-}
+  width: 272px;
+  height: 227px;
+  float: left;
+  clear: right;
+  margin: 12px 57px 50px auto;
+  }
+
 .laptopbox_headling{
-display: -webkit-flex;
-display: -ms-flex;
-display: flex;
-flex-direction: column;
-width: 317px;
-height: 39px;
-}
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  height: 39px;
+  }
+
 .laptopbox_txt{
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
   flex-direction: column;
-width: 498px;
-height: 152px;
-padding-top: 23px;
-}
+  width: 498px;
+  height: 152px;
+  padding-top: 23px;
+  }
+
 .infobox_headling{
+  margin: 0;
+  font-family: Open Sans, serif;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 62px;
   color: #ffffff;
-font-family: Open Sans, serif;
-font-size: 39px;
-font-weight: 400;
-line-height: 62px;
-margin: 0;
-}
+  }
+
 .infobox_txt{
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  word-break: break-all;
   color: #ffffff;
-font-family: "Open Sans";
-font-size: 14px;
-font-weight: 400;
-line-height: 23px;
-word-break: break-all;
-}
+  }
+
 .button{
-  display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
   flex-direction: column;
+  padding-top: 5px;
+  margin-top: 45px;
+  width: 200px;
+  height: 45px;
   font-size: 25px;
   text-align: center;
   text-decoration: none;
   font-family: Open Sans, serif;
   font-weight: 400;
+  color: #fff;
   border: 3px solid #fff;
   border-radius: 6px;
-  width: 200px;
-  height: 45px;
-  color: #fff;
-  padding-top: 5px;
-  margin-top: 45px;
-}
+  }
+
 /*конец блока синформацией*/
+
 #map{
   width: 100%;
   height: 635px;
-}
+  }
 
 .email{
+  position: absolute;
+  z-index: 1;
+  left: 50%;                /*костыль для центрирования*/
+  margin-left: -215px;      /*абсолютной позиции*/
   width: 430px;
   height: 430px;
   margin-top: 161px;
-  left: 50%;                /*костыль для центрирования*/
-  margin-left: -215px;      /*абсолютной позиции*/
-  position: absolute;
-  z-index: 1;
   border-radius: 50%;
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
   opacity: 0.85;
-}
+  }
+
 form{
   width: 275px;
   height: 275px;
   margin: 112px auto;
-}
+  }
+
 .name{
   width: 275px;
   height: 31px;
-}
+  }
+
 .email_add{
   width: 275px;
   height: 31px;
   margin-top: 15px;
-}
+  }
+
 .comment{
   width: 275px;
   height: 80px;
   margin-top: 15px;
-}
+  }
+
 .submit{
-display: inline;
-border: none;
-background: none;
-width: 67px;
-height: 67px;
-margin-top: 33px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-}
-/*подвал*/
+  display: block;
+  margin: 33px auto;
+  width: 67px;
+  height: 67px;
+  border: none;
+  background: none;
+  }
+
+/*Подвал*/
+
 footer{
   width: 100%;
   height: 46px;
   padding-top: 19px;
-  background-color: #43a06d;
   text-align: center;
-  color: #fff;
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
+  color: #fff;
+  background-color: #43a06d;
 }
+
+/*Конец подвала*/

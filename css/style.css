@@ -357,6 +357,7 @@ body.callto{
   background-color: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
   opacity: 0.85;
+  visibility: hidden;
   }
 
 form{
@@ -389,7 +390,13 @@ form{
   height: 67px;
   border: none;
   background: none;
+  visibility: visible;
   }
+
+  /*Класс срабатывает после активации скрипта с навидение на галочку*/
+.email_show{
+  visibility: visible;
+}
 
 /*Подвал*/
 

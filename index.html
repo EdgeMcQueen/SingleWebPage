@@ -80,12 +80,12 @@ Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio
   </section>
 
 <div id="map">
-  <div class="email">
-    <form>
+  <div id="email" class="email">
+    <form id="emailform">
       <input class="name" type="text" size="40" name="name" placeholder="Name">
         <input class="email_add" type="email" name="email" placeholder="Email adress">
         <textarea class="comment" name="comment" rows="8" cols="80" placeholder="Commentary"></textarea>
-        <input class="submit" type="submit" name="" value="" style="background-image: url(img/submit.png);background-repeat: no-repeat;">
+        <input id="submit" class="submit" type="submit" name="" value="" style="background-image: url(img/submit.png);background-repeat: no-repeat;">
     </form>
   </div>
 </div>
@@ -96,8 +96,26 @@ Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio
 </footer>
 
 </body>
+<!--  Подключение скриптов -->
 
+<script src="js/script.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+<!--  Скрипт отображает форму при наведении на галочку -->
+
+
+<script type="text/javascript">
+$(function(){
+$('.submit').hover(function(){
+  $('.email').addClass('email_show');
+})
+});
+</script>
+
+<!--  Скрипт Яндекс Карт -->
+
+
 <script type="text/javascript">
 ymaps.ready(init);
 
@@ -112,5 +130,7 @@ function init(){
 
 }
 </script>
+
+
 
 </html>

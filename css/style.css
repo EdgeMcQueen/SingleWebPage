@@ -53,6 +53,26 @@ p{
 
 /*Конец параметров шрифтов*/
 
+/*Дополнительные параметры*/
+  /*Настройки полосы прокрутки*/
+::-webkit-scrollbar{                    /*Ширина иконки полосы прокрутки*/
+  display: none;
+}
+::-webkit-scrollbar-thumb{              /*Стиль иконки полосы прокрутки*/
+
+}
+::-webkit-scrollbar-thumb:hover{        /*Ховер еффект иконки полосы прокрутки*/
+
+}
+::-webkit-scrollbar-track{              /*Стиль полосы прокрутки*/
+
+}
+::-webkit-scrollbar-track:hover{        /*Ховер еффект полосы прокрутки*/
+
+}
+  /*Конец настройки полосы прокрутки*/
+/*Конец дополнительных параметров*/
+
 /*Параметры шипки*/
 .head{
   width: 100%;
@@ -100,7 +120,7 @@ body.callto{
   width: 334px;
   height: 334px;
   padding-top: 31px;
-  box-shadow: 0.5px 0.5px 5px 0.1px #444, -0.5px -0.5px 5px 0.1px #444;
+  filter: drop-shadow(0.2px 0.2px 4px #444);
   background-color: #ffffff;
   }
 
@@ -355,7 +375,6 @@ body.callto{
   margin-top: 161px;
   border-radius: 50%;
   background-color: #fff;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
   opacity: 0.85;
   visibility: hidden;
   }
@@ -396,6 +415,7 @@ form{
   /*Класс срабатывает после активации скрипта с навидение на галочку*/
 .email_show{
   visibility: visible;
+  filter: drop-shadow(1px 1px 5px #444);
 }
 
 /*Подвал*/

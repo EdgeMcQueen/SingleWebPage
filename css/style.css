@@ -29,22 +29,22 @@ main{
   }
 
 .regular{
-  font-family: Open Sans, serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   }
 
 .semibold{
-  font-family: Open Sans, serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   }
 
 .bold{
-  font-family: Open Sans, serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   }
 
 p{
-  font-family: Open Sans, serif;
+  font-family: 'Open Sans', sans-serif;
   }
 
 .overflow_txt{

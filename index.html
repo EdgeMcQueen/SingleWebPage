@@ -32,10 +32,10 @@
           <li><a href=""><img class="imgs_link" src="img/9.png" alt=""></a></li>
           <li><a href=""><img class="imgs_link" src="img/10.png" alt=""></a></li>
         </ul>
-        <p class="overflow_txt calltotxt">This is Photoshop's version  of Lorem Ipsum. <br>
+        <p class="overflow_txt text_visible calltotxt">This is Photoshop's version  of Lorem Ipsum. <br>
           Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
         </p>
-        <a href="" class="pressme">PRESS ME</a>
+        <a href="" class="pressme focus_bord">PRESS ME</a>
       </div>
   </div>
 
@@ -75,18 +75,21 @@ Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio
       <img src="img/laptop.png" alt="" class="laptop">
       <h2 class="infobox_headling laptopbox_headling">This is a Heading</h2>
       <p class="infobox_txt laptopbox_txt">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-      <a href="#" class="button">Download</a>
+      <a href="#" class="download_button focus_bord">Download</a>
     </div>
 
   </section>
 
 <div id="map">
   <div id="email" class="email">
+    <button class="close_email">
+      <img src="img/close.png" alt="close button">
+    </button>
     <form id="emailform">
       <input class="name" type="text" size="40" name="name" placeholder="Name">
         <input class="email_add" type="email" name="email" placeholder="Email adress">
         <textarea class="comment" name="comment" rows="8" cols="80" placeholder="Commentary"></textarea>
-        <input id="submit" class="submit" type="submit" name="" value="" style="background-image: url(img/submit.png);background-repeat: no-repeat;">
+        <input id="submit" class="submit focus_bord" type="image" src="img/submit.png" name="" value="">
     </form>
   </div>
 </div>
@@ -101,40 +104,9 @@ Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio
 
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-
-
 <!--  Скрипт отображает форму при наведении на галочку -->
-
-
-<script type="text/javascript">
-$(function(){
-$('.submit').hover(function(){
-  $('.email').addClass('email_show');
-})
-});
-</script>
-
+<script src="js/email.js"></script>
 <!--  Скрипт Яндекс Карт -->
-
-
-<!--
-<script type="text/javascript">
-ymaps.ready(init);
-
-function init(){
-
-  var myMap;
-
-  myMap = new ymaps.Map("map", {
-      center: [55.76, 37.64],
-      zoom: 13
-  });
-
-}
-</script>-->
-
-
-
-
+<script src="js/map.js"></script>
 
 </html>

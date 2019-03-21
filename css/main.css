@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/*Обнуление*/
+html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll; }
+
+body {
+  margin-top: 0;
+  margin: 0; }
+
+main {
+  margin: 0;
+  padding: 0; }
+
+/*Конец обнуления*/
+/*Параметры шрифтов*/
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700); }
+.caps {
+  text-transform: uppercase; }
+
+.opensans-regular {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
+.opensans-semibold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600; }
+
+.opensans-bold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; }
+
+.overflow_txt {
+  overflow: hidden; }
+
+.focus_bord:focus {
+  outline: none;
+  padding-bottom: 1px;
+  border-bottom: 5px solid black;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+/*Конец параметров шрифтов*/
+/*Настройки полосы прокрутки*/
+::-webkit-scrollbar {
+  width: 10px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: #333; }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666; }
+
+::-webkit-scrollbar-track:hover {
+  background-color: #ddd; }
+
+/*Конец настройки полосы прокрутки*/
+/*Параметры шипки*/
+.head {
+  width: 100%;
+  height: 800px;
+  padding-top: 68px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(0, 0, 0, 0.8))), url(../img/city.png);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)), url(../img/city.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top; }
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  -webkit-filter: drop-shadow(0 0 10px #000);
+          filter: drop-shadow(0 0 10px #000); }
+  .logo:hover {
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-filter: drop-shadow(0 0 10px #5fc18b);
+            filter: drop-shadow(0 0 10px #5fc18b); }
+
+p.fontstyle {
+  margin: 0;
+  text-align: center;
+  font-size: 49px;
+  color: #fff; }
+
+.headtxt {
+  margin: 78px auto;
+  width: 675px;
+  height: 97px; }
+
+/*Конец шапки*/
+
+/*# sourceMappingURL=main.css.map */

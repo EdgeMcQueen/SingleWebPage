@@ -1,0 +1,44 @@
+
+/*Параметры шипки*/
+
+.head{
+  width: 100%;
+  height: 800px;
+  padding-top: 68px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8) ), url(../img/city.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  transition: $all-ease-06;
+  filter: drop-shadow(0 0 10px #000);
+    &:hover{
+      -webkit-transition: all .6s ease;;
+      -moz-transition: all .6s ease;;
+      -o-transition: all .6s ease;;
+      transition: all .6s ease;
+      filter: drop-shadow(0 0 10px $lite-green);
+    }
+}
+
+p.fontstyle{
+  margin: 0;
+  text-align: center;
+  font-size: 49px;
+  color: #fff;
+}
+
+.headtxt{
+  margin: 78px auto;
+  width: 675px;
+  height: 97px;
+}
+
+/*Конец шапки*/

@@ -1,0 +1,63 @@
+/*Блок документов и фото*/
+
+.filebox{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+  width: auto;
+
+//Документы
+.documents{
+  width: 393px;
+  height: 121px;
+  margin: 170px auto;
+
+.doc{
+  width: 95px;
+  height: 121px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  }
+}
+//---------------------------------
+//Фото
+.photos{
+  width: 393px;
+  height: 121px;
+  margin: 170px auto;
+
+.phot{
+  width: 95px;
+  height: 121px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  }
+}
+//---------------------------------
+.h_filebox{
+  margin: 13px auto auto 118px;
+  width: 147px;
+  height: 19px;
+  font-family: Open Sans, serif;
+  }
+
+.fb_txt{
+  margin: 19px auto auto 118px;
+  width: 266px;
+  height: 70px;
+  opacity: 0.66;
+  transition: $all-ease-06;
+  &:hover{
+    width: 275px;
+    height: 177px;
+    overflow: scroll;
+    opacity: 1;
+    transition: $all-ease-06;
+    }
+  }
+}
+/*Конец блока документов и фото*/

@@ -98,5 +98,351 @@ p.fontstyle {
   height: 97px; }
 
 /*Конец шапки*/
+/*Блок call to*/
+body.callto {
+  margin-top: 579px; }
+
+.callto {
+  margin: 0 auto;
+  width: 334px;
+  height: 334px;
+  padding-top: 31px;
+  -webkit-filter: drop-shadow(0.2px 0.2px 4px #444);
+          filter: drop-shadow(0.2px 0.2px 4px #444);
+  background-color: #ffffff; }
+  .callto .zipcode {
+    width: 264px;
+    height: 36px;
+    display: block;
+    margin: 31px auto 24px auto;
+    font-family: Open Sans, serif;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.66; }
+  .callto .images {
+    margin: 0 0 156px 0;
+    width: 334px;
+    height: 87px;
+    padding: 0; }
+    .callto .images .imgs_link {
+      width: 66.5px;
+      height: 43.5px; }
+    .callto .images .imgs {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+    .callto .images .imgs > li > a {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      padding: 0;
+      margin: 0; }
+  .callto .calltotxt {
+    display: block;
+    width: 217px;
+    height: 40px;
+    margin: 27px auto 25px auto;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.66;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease; }
+  .callto .text_visible:hover {
+    width: 100%;
+    height: 110px;
+    margin: 0;
+    text-align: center;
+    overflow: scroll;
+    opacity: 1; }
+  .callto .pressme {
+    display: block;
+    width: 195px;
+    height: 45px;
+    padding-top: 12px;
+    margin: 0 auto 25px auto;
+    font-family: Open Sans, serif;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #227dd3;
+    -webkit-transition: all 0.6s linear;
+    transition: all 0.6s linear; }
+    .callto .pressme:hover {
+      -webkit-filter: brightness(125%);
+              filter: brightness(125%);
+      -webkit-transition: all 0.6s linear;
+      transition: all 0.6s linear; }
+    .callto .pressme:active {
+      background-color: #fff;
+      color: #227dd3;
+      -webkit-transition: all 0.6s linear;
+      transition: all 0.6s linear; }
+
+/*Конец шапки*/
+/*Блок документов и фото*/
+.filebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+  height: auto;
+  width: auto; }
+  .filebox .documents {
+    width: 393px;
+    height: 121px;
+    margin: 170px auto; }
+    .filebox .documents .doc {
+      width: 95px;
+      height: 121px;
+      padding: 0;
+      margin: 0;
+      float: left; }
+  .filebox .photos {
+    width: 393px;
+    height: 121px;
+    margin: 170px auto; }
+    .filebox .photos .phot {
+      width: 95px;
+      height: 121px;
+      padding: 0;
+      margin: 0;
+      float: left; }
+  .filebox .h_filebox {
+    margin: 13px auto auto 118px;
+    width: 147px;
+    height: 19px;
+    font-family: Open Sans, serif; }
+  .filebox .fb_txt {
+    margin: 19px auto auto 118px;
+    width: 266px;
+    height: 70px;
+    opacity: 0.66;
+    -webkit-transition: all 0.6s ease;
+    transition: all 0.6s ease; }
+    .filebox .fb_txt:hover {
+      width: 275px;
+      height: 177px;
+      overflow: scroll;
+      opacity: 1;
+      -webkit-transition: all 0.6s ease;
+      transition: all 0.6s ease; }
+
+/*Конец блока документов и фото*/
+/*Блок с информацией*/
+.infobox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 1352px;
+  width: 100%;
+  padding-top: 86px;
+  background-image: url(../img/infobox.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .infobox .padbox {
+    width: 665px;
+    height: 507px;
+    margin: 86px auto; }
+  .infobox .pad {
+    display: block;
+    margin: 0 auto; }
+  .infobox .padbox_headling {
+    text-align: center; }
+  .infobox .padbox_txt {
+    padding-left: 21px;
+    padding-right: 21px; }
+  .infobox .laptopbox {
+    width: 835px;
+    height: 100%;
+    margin-left: 15%; }
+  .infobox .laptop {
+    width: 272px;
+    height: 227px;
+    float: left;
+    clear: right;
+    margin: 12px 57px 50px auto; }
+  .infobox .laptopbox_headling {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 317px;
+    height: 39px; }
+  .infobox .laptopbox_txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 498px;
+    height: 152px;
+    padding-top: 23px; }
+  .infobox .infobox_headling {
+    margin: 0;
+    font-family: Open Sans, serif;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 62px;
+    color: #ffffff; }
+  .infobox .infobox_txt {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    word-break: break-all;
+    color: #ffffff; }
+  .infobox .download_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 5px;
+    margin-top: 45px;
+    width: 200px;
+    height: 45px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 6px;
+    -webkit-transition: all 0.6s linear;
+    transition: all 0.6s linear; }
+    .infobox .download_button:hover {
+      background-color: #43a06d;
+      color: #aaa;
+      border: 3px solid #aaa;
+      -webkit-filter: brightness(125%);
+              filter: brightness(125%);
+      -webkit-transition: all 0.6s linear;
+      transition: all 0.6s linear; }
+    .infobox .download_button:active {
+      background-color: #fff;
+      color: #43a06d;
+      -webkit-transition: all 0.6s linear;
+      transition: all 0.6s linear; }
+
+/*конец блока с информацией*/
+/*Карта и блок email*/
+#map {
+  width: 100%;
+  height: 635px; }
+
+.email {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  /*костыль для центрирования*/
+  margin-left: -215px;
+  /*абсолютной позиции*/
+  width: 430px;
+  height: 430px;
+  margin-top: 161px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.85;
+  visibility: hidden; }
+  .email form {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto; }
+  .email .name {
+    width: 275px;
+    height: 31px; }
+  .email .email_add {
+    width: 275px;
+    height: 31px;
+    margin-top: 15px; }
+  .email .comment {
+    width: 275px;
+    height: 80px;
+    margin-top: 15px; }
+  .email .submit {
+    display: block;
+    margin: 15px auto;
+    width: 67px;
+    height: 67px;
+    border: none;
+    outline: none;
+    visibility: visible;
+    cursor: pointer; }
+    .email .submit:hover {
+      -webkit-filter: brightness(125%);
+              filter: brightness(125%);
+      -webkit-transition: all 0.6s linear;
+      transition: all 0.6s linear; }
+    .email .submit:active {
+      -webkit-filter: brightness(25%);
+              filter: brightness(25%);
+      -webkit-transition: all 0.6s linear;
+      transition: all 0.6s linear; }
+  .email .close_email {
+    display: block;
+    margin: 35px auto;
+    padding: 0;
+    border: 0;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    -webkit-transition: all 0.6s linear;
+    transition: all 0.6s linear; }
+    .email .close_email:hover {
+      -webkit-filter: brightness(125%);
+              filter: brightness(125%);
+      -webkit-transition: all 0.6s linear;
+      transition: all 0.6s linear; }
+    .email .close_email:active {
+      -webkit-filter: brightness(25%);
+              filter: brightness(25%);
+      -webkit-transition: all 0.6s linear;
+      transition: all 0.6s linear; }
+    .email .close_email .close_email > img {
+      width: 75%;
+      height: 75%; }
+
+/*Класс срабатывает после активации скрипта с навидение на галочку*/
+.email_show {
+  visibility: visible;
+  -webkit-filter: drop-shadow(1px 1px 5px #444);
+          filter: drop-shadow(1px 1px 5px #444);
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear; }
+
+/*Подвал*/
+footer {
+  width: 100%;
+  height: 46px;
+  padding-top: 19px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #fff;
+  background-color: #43a06d; }
+
+/*Конец подвала*/
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,91 @@
+/*Карта и блок email*/
+#map{
+  width: 100%;
+  height: 635px;
+  }
+
+.email{
+  position: absolute;
+  z-index: 1;
+  left: 50%;                /*костыль для центрирования*/
+  margin-left: -215px;      /*абсолютной позиции*/
+  width: 430px;
+  height: 430px;
+  margin-top: 161px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.85;
+  visibility: hidden;
+
+form{
+  width: 275px;
+  height: 275px;
+  margin: 0 auto;
+  }
+
+.name{
+  width: 275px;
+  height: 31px;
+  }
+
+.email_add{
+  width: 275px;
+  height: 31px;
+  margin-top: 15px;
+  }
+
+.comment{
+  width: 275px;
+  height: 80px;
+  margin-top: 15px;
+  }
+
+.submit{
+  display: block;
+  margin: 15px auto;
+  width: 67px;
+  height: 67px;
+  border: none;
+  outline: none;
+  visibility: visible;
+  cursor: pointer;
+&:hover{
+  filter: brightness(125%);
+  transition: $all-linear-06;
+}
+&:active{
+  filter: brightness(25%);
+  transition: $all-linear-06;
+  }
+}
+
+.close_email{
+  display: block;
+  margin: 35px auto;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  transition: $all-linear-06;
+&:hover{
+  filter: brightness(125%);
+  transition: $all-linear-06;
+}
+&:active{
+  filter: brightness(25%);
+  transition: $all-linear-06;
+  }
+
+.close_email>img{
+  width: 75%;
+  height: 75%;
+  }
+}
+}
+  /*Класс срабатывает после активации скрипта с навидение на галочку*/
+.email_show{
+  visibility: visible;
+  filter: drop-shadow(1px 1px 5px #444);
+  transition: $all-linear-1;
+}
